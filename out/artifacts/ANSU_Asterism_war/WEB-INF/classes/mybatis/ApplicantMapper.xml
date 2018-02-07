@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.guild.mapper.ApplicantMapper">
+    <resultMap id="applicantMap" type="com.guild.model.Applicanter">
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="wechat" column="wechat"/>
+        <result property="equip_level" column="equip_level"/>
+        <result property="experience" column="experience"/>
+        <result property="assart_time" column="assart_time"/>
+    </resultMap>
+
+    <insert id="add_applicanter" parameterType="com.guild.model.Applicanter">
+        INSERT INTO tb_applicant (id,name,wechat,equip_level,experience,assart_time) VALUES
+        (null,#{name},#{wechat},#{equip_level},#{experience},#{assart_time})
+    </insert>
+
+    <delete id="delete_applicanter" parameterType="int">
+        DELETE FROM tb_applicant WHERE id = #{id}
+    </delete>
+
+    <select id="quert_count" resultType="int">
+        SELECT COUNT(*) FROM tb_applicant
+    </select>
+
+    <select id="query_applicanter" resultMap="applicantMap" parameterType="int">
+        SELECT * FROM tb_applicant limit #{start},#{length}
+    </select>
+
+    <select id="get_applicant_msg" parameterType="int" resultType="com.guild.model.Applicanter">
+        SELECT name,equip_level FROM tb_applicant WHERE id = #{id }
+    </select>
+
+    <select id="query_app_count" parameterType="java.lang.String" resultType="int">
+        SELECT COUNT(*) FROM tb_applicant WHERE NAME LIKE CONCAT(CONCAT('%', #{applicant_name}), '%')
+    </select>
+
+    <select id="fast_query_applicant" resultMap="applicantMap">
+        SELECT * FROM tb_applicant WHERE NAME LIKE CONCAT(CONCAT('%', #{2}), '%') LIMIT #{0},#{1}
+    </select>
+</mapper>

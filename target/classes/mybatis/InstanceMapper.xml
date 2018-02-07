@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.guild.mapper.InstanceMapper">
+    <resultMap id="instanceMap" type="com.guild.model.Instance">
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+    </resultMap>
+    
+    <select id="check_rename" resultMap="instanceMap" parameterType="java.lang.String">
+        SELECT * FROM tb_instance WHERE name=#{name}
+    </select>
+
+    <insert id="add_instance" parameterType="com.guild.model.Instance">
+        INSERT INTO tb_instance (id,name) VALUES (null,#{name})
+    </insert>
+
+    <select id="query_instance" resultMap="instanceMap" parameterType="int">
+        SELECT * FROM tb_instance limit #{start},#{length}
+    </select>
+
+    <select id="count" resultType="int">
+        SELECT COUNT(*) FROM tb_instance
+    </select>
+
+    <update id="update_instance">
+        UPDATE tb_instance SET
+        name = #{name} WHERE id=#{id}
+    </update>
+
+    <select id="get_instance" resultType="com.guild.model.Instance">
+        SELECT name FROM tb_instance WHERE id=#{id}
+    </select>
+
+    <delete id="delete_instance" parameterType="int">
+        DELETE FROM tb_instance WHERE id=#{id}
+    </delete>
+
+    <select id="query_instance_option" resultMap="instanceMap">
+        SELECT * FROM tb_instance
+    </select>
+
+    <select id="search_instance" resultMap="instanceMap" >
+        SELECT * FROM tb_instance WHERE name LIKE CONCAT(CONCAT('%', #{2}), '%') limit #{0},#{1}
+    </select>
+
+    <select id="instance_count" resultType="int">
+       SELECT COUNT(*) FROM  tb_person WHERE NAME LIKE CONCAT(CONCAT('%', #{instance_name}), '%')
+    </select>
+</mapper>

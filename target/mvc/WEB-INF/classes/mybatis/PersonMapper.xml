@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.guild.mapper.PersonMapper">
+    <resultMap id="personMap" type="com.guild.model.Person">
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="equip_level" column="equip_level"/>
+        <result property="remark" column="remark"/>
+        <result property="join_time" column="join_time"/>
+        <result property="feel" column="feel"/>
+        <result property="nick_name" column="nick_name"/>
+        <result property="pro_id" column="pro_id"/>
+        <result property="will_order" column="will_order"/>
+        <result property="location" column="location"/>
+        <result property="is_display" column="is_display"/>
+        <result property="pic_path" column="pic_path"/>
+    </resultMap>
+    <insert id="add" parameterType="com.guild.model.Person">
+        INSERT INTO tb_person (id,name,equip_level,remark,join_time,feel,nick_name,pro_id,will_order,location,is_display,pic_path)
+        VALUES
+        (null,#{name},#{equip_level},#{remark},#{join_time},#{feel},#{nick_name},#{pro_id},#{will_order},#{location},#{is_display},#{pic_path})
+    </insert>
+
+    <delete id="delete" parameterType="int">
+        DELETE FROM  tb_person WHERE id=#{id}
+    </delete>
+
+    <select id="get" parameterType="int" resultMap="personMap">
+        SELECT * FROM tb_person WHERE id=#{person_id}
+    </select>
+
+    <update id="update" parameterType="com.guild.model.Person">
+        update tb_person set
+        name = #{name},
+        equip_level = #{equip_level},
+        remark = #{remark},
+        join_time = #{join_time},
+        feel = #{feel},
+        nick_name = #{nick_name},
+        pro_id = #{pro_id},
+        will_order = #{will_order},
+        location = #{location},
+        pic_path = #{pic_path}
+        where id = #{id}
+    </update>
+
+    <select id="list" resultMap="personMap" parameterType="int">
+        select * from tb_person LIMIT #{start},#{length}
+    </select>
+
+    <select id="check_rename" parameterType="java.lang.String" resultMap="personMap">
+        select * from tb_person where name = #{name}
+    </select>
+
+    <select id="count" resultType="int">
+        select count(*) from tb_person
+    </select>
+
+    <select id="get_name" resultType="java.lang.String" parameterType="int">
+        SELECT name FROM tb_person WHERE id = #{person_id}
+    </select>
+
+    <select id="select_status" parameterType="int" resultType="boolean">
+        SELECT is_display FROM tb_person WHERE id = #{person_id}
+    </select>
+
+    <update id="update_status">
+        UPDATE tb_person SET
+        is_display = #{1}
+        WHERE id = #{0}
+    </update>
+
+    <select id="fast_query" resultMap="personMap" >
+        SELECT * FROM tb_person WHERE name LIKE CONCAT(CONCAT('%', #{2}), '%') limit #{0},#{1}
+    </select>
+
+    <select id="fast_query_count" resultType="int">
+        SELECT COUNT(*) FROM  tb_person WHERE NAME LIKE CONCAT(CONCAT('%', #{person_name}), '%')
+    </select>
+
+    <select id="query_is_display" resultMap="personMap" >
+        SELECT * FROM tb_person WHERE is_display == 1
+    </select>
+
+    <insert id="insert_applicanter" >
+        INSERT INTO tb_person (id,name,equip_level,join_time,is_display) VALUES (null,#{0},#{1},#{2},#{3})
+    </insert>
+
+    <select id="page_one_person" resultType="com.guild.model.Person" parameterType="int">
+        SELECT
+        name,equip_level,remark,join_time,feel,nick_name,pro_id,will_order,location,is_display,pic_path
+        FROM tb_person
+        WHERE id=#{id}
+    </select>
+
+    <select id="get_propsal_person" resultMap="personMap">
+        SELECT name,pic_path FROM tb_person WHERE is_display = TRUE
+    </select>
+
+</mapper>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.guild.mapper.NewsMapper">
+    <resultMap id="newsMap" type="com.guild.model.News">
+        <id property="id" column="id"/>
+        <result property="title" column="title"/>
+        <result property="release_time" column="release_time"/>
+        <result property="source" column="source"/>
+        <result property="header_pic_path" column="header_pic_path"/>
+        <result property="content" column="content"/>
+    </resultMap>
+    <insert id="add_news" parameterType="com.guild.model.News">
+        INSERT INTO tb_news
+        (id,title,release_time,source,header_pic_path,content)
+        VALUES
+        (null,#{title},#{release_time},#{source},#{header_pic_path},#{content})
+    </insert>
+    <select id="query_news" resultMap="newsMap" parameterType="int">
+        SELECT * FROM tb_news limit #{start},#{length}
+    </select>
+
+    <select id="get_count" resultType="int">
+        SELECT COUNT(*) FROM tb_news
+    </select>
+
+    <select id="check_rename" parameterType="java.lang.String" resultMap="newsMap" >
+        SELECT * FROM tb_news WHERE title = #{title}
+    </select>
+
+    <select id="get_news" parameterType="int" resultType="com.guild.model.News">
+        SELECT title,source,content FROM tb_news WHERE id=#{news_id}
+    </select>
+
+    <delete id="delete_news" parameterType="int">
+        DELETE FROM tb_news WHERE id=#{news_id}
+    </delete>
+
+    <update id="update_news" parameterType="com.guild.model.News">
+        UPDATE tb_news SET
+        title=#{title}, source=#{source}, header_pic_path=#{header_pic_path},content=#{content}
+        WHERE id=#{id}
+    </update>
+
+    <select id="fast_query_count" parameterType="java.lang.String" resultType="int">
+        SELECT COUNT(*)
+        FROM tb_news
+        WHERE
+        title LIKE CONCAT(CONCAT('%', #{condition}), '%')
+        OR
+        source LIKE CONCAT(CONCAT('%', #{condition}), '%')
+    </select>
+
+    <select id="fast_query_news" resultMap="newsMap">
+        SELECT * FROM
+        tb_news
+        WHERE
+        title LIKE CONCAT(CONCAT('%', #{2}), '%')
+        OR
+        source LIKE CONCAT(CONCAT('%', #{2}), '%')
+        limit #{0},#{1}
+    </select>
+
+    <select id="get_newest_news" resultMap="newsMap">
+        select * from tb_news order by id desc limit 0,5
+    </select>
+
+    <select id="news_information" parameterType="int" resultMap="newsMap">
+        SELECT * FROM tb_news
+    </select>
+</mapper>

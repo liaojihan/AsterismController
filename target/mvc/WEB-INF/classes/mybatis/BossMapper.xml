@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.guild.mapper.BossMapper">
+    <resultMap id="bossMap" type="com.guild.model.Boss">
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="belong_to" column="belong_to"/>
+        <result property="is_pass" column="is_pass"/>
+        <result property="boss_pic_pic" column="boss_pic_pic"/>
+    </resultMap>
+
+    <select id="query_boss" parameterType="int" resultMap="bossMap">
+        SELECT * FROM tb_boss limit #{start},#{length}
+    </select>
+
+    <select id="query_boss_by_order" resultMap="bossMap">
+        SELECT * FROM tb_boss ORDER BY ${order_column_data} ${order_dir} limit #{start},#{length}
+    </select>
+
+    <select id="count" resultType="int">
+        SELECT count(*) FROM tb_boss
+    </select>
+    
+    <select id="search_boss_by_order" resultMap="bossMap">
+        SELECT * FROM
+        tb_boss
+        WHERE
+        NAME LIKE CONCAT(CONCAT('%', #{boss_name}), '%')
+        or
+        belong_to LIKE CONCAT(CONCAT('%', #{boss_name}), '%')
+        ORDER BY ${order_column_data} ${order_dir} limit #{start},#{length}
+    </select>
+
+    <select id="search_boss" resultMap="bossMap">
+        SELECT * FROM
+        tb_boss
+        WHERE
+        NAME LIKE CONCAT(CONCAT('%', #{boss_name}), '%')
+        or
+        belong_to LIKE CONCAT(CONCAT('%', #{boss_name}), '%')
+        limit #{start},#{length}
+    </select>
+
+    <select id="boss_count" resultType="int">
+        SELECT count(*) FROM tb_boss WHERE NAME LIKE CONCAT(CONCAT('%', #{boss_name}), '%')
+    </select>
+    <insert id="add_boss" parameterType="com.guild.model.Boss">
+        INSERT INTO tb_boss (id, name, belong_to, is_pass,boss_pic_pic) VALUES (null,#{name},#{belong_to},#{is_pass},#{boss_pic_pic})
+    </insert>
+
+    <select id="select_status" parameterType="int" resultType="boolean">
+        SELECT is_pass FROM tb_boss WHERE id=#{id}
+    </select>
+
+    <update id="update_status">
+        UPDATE tb_boss SET
+        is_pass = #{flag} WHERE id=#{id}
+    </update>
+
+    <delete id="delete_boss" parameterType="int">
+        DELETE FROM tb_boss WHERE id=#{id}
+    </delete>
+
+</mapper>

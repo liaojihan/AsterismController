@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.guild.mapper.ProfessionMapper">
+    <resultMap id="professionMap" type="com.guild.model.Profession">
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+    </resultMap>
+
+    <select id="list" resultMap="professionMap">
+        select * from tb_profession
+    </select>
+
+    <select id="get_pro_name" parameterType="int" resultType="java.lang.String">
+        SELECT name FROM tb_profession WHERE id = #{pro_id}
+    </select>
+
+</mapper>
