@@ -63,8 +63,8 @@
         <h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">WOW</h1>
         <h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">Ansu & Asterism</h3>
         <ul class="list-inline intro-social-buttons">
-            <li><a href="#" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s" id="wechat"><span class="network-name">Wechat</span></a>
-            </li>
+            <%--<li><a href="#" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s" id="wechat"><span class="network-name">Wechat</span></a>--%>
+            <%--</li>--%>
             <li id="download" ><a href="#contact" class="btn  btn-lg mybutton_standard wow swing wow fadeIn" data-wow-delay="1.2s"><span class="network-name">Join Us</span></a>
             </li>
         </ul>
@@ -93,11 +93,11 @@
         <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
             <ul class="nav navbar-nav">
 
-                <li class="menuItem"><a href="#whatis">What is?</a></li>
-                <li class="menuItem"><a href="#useit">Use It</a></li>
-                <li class="menuItem"><a href="#screen">Screenshot</a></li>
+                <li class="menuItem"><a href="#whatis">关于我们</a></li>
+                <li class="menuItem"><a href="#useit">新闻热点</a></li>
+                <li class="menuItem"><a href="#screen"></a></li>
                 <li class="menuItem"><a href="#credits">Credits</a></li>
-                <li class="menuItem"><a href="#contact">Contact</a></li>
+                <li class="menuItem"><a href="#contact">加入我们</a></li>
             </ul>
         </div>
 
@@ -109,32 +109,33 @@
     <div class="container">
 
         <div class="col-md-6 col-md-offset-3 text-center wrap_title">
-            <h2>What is?</h2>
-            <p class="lead" style="margin-top:0">A special thanks to Death.</p>
+            <h2>关于我们</h2>
+            <p class="lead" style="margin-top:0">A marvelous guild</p>
 
         </div>
 
         <div class="row">
 
             <div class="col-sm-4 wow fadeInDown text-center">
-                <img class="rotate" src="${path}/FlatfyTheme/img/icon/tweet.svg" alt="Generic placeholder image">
-                <h3>Follow Me</h3>
-                <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
+                <h3>为了联盟</h3>
+                <p class="lead"><br><br>我们是国服十区 -- 安苏服务器的一家联盟公会！</p>
 
                 <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
             </div><!-- /.col-lg-4 -->
 
             <div class="col-sm-4 wow fadeInDown text-center">
-                <img  class="rotate" src="${path}/FlatfyTheme/img/icon/picture.svg" alt="Generic placeholder image">
-                <h3>Gallery</h3>
-                <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
+                <h3>公会背景</h3>
+                <p class="lead">其实往回看看，事情总是发生的让人出乎意料不是吗？
+                    谁能想到当初只有10个人的团队，之后可以坚持4年多还在一起谈笑风生呢。
+                    公会最早追溯到90年代初期。当时只是10个人的固定团，并没有在一个公会。
+                    在7.0初期，人员开始陆陆续续的更换与增多，才能组建起这个强壮的新团队。</p>
                 <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
             </div><!-- /.col-lg-4 -->
 
             <div class="col-sm-4 wow fadeInDown text-center">
-                <img  class="rotate" src="${path}/FlatfyTheme/img/icon/retina.svg" alt="Generic placeholder image">
-                <h3>Retina</h3>
-                <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
+                <h3>公会进度</h3>
+                <p class="lead"><br>现在由一区诺莫瑞根转服至十区安苏重现组建公会。
+                    目前王座7M开荒金加洛斯，招募稳定并有一定装备基础，能合理安排生活与活动时间的成熟团员</p>
                 <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
             </div><!-- /.col-lg-4 -->
 
@@ -143,23 +144,30 @@
         <div class="row tworow">
 
             <div class="col-sm-4  wow fadeInDown text-center">
-                <img class="rotate" src="${path}/FlatfyTheme/img/icon/laptop.svg" alt="Generic placeholder image">
-                <h3>Responsive</h3>
-                <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
+                <h3>公会活动</h3>
+                <p class="lead"></p>
+                <p class="lead"><span style="font-weight: bold">活动时间:</span>每周活动时间为 周5，周6，周日晚上7:50-11:00</p>
+                <p class="lead"><span style="font-weight: bold">分配模式:</span>分配模式目前是队长分配，绝对不用担心黑装备问题，目前团队非常和谐，大家都在让来让去，没有出现争抢的情况。</p>
                 <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
             </div><!-- /.col-lg-4 -->
 
             <div class="col-sm-4 wow fadeInDown text-center">
-                <img  class="rotate" src="${path}/FlatfyTheme/img/icon/map.svg" alt="Generic placeholder image">
-                <h3>Google</h3>
-                <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
+                <h3>联系方式</h3>
+                <p class="lead">微信:15177777340 -- 碧水</p>
+                <p class="lead">请标注NGA招募 </p>
+                <p class="lead">游戏联系方式: 碧水丶-安苏</p>
+                <p class="lead">战网: vv5616561@163.com</p>
                 <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
             </div><!-- /.col-lg-4 -->
 
             <div class="col-sm-4 wow fadeInDown text-center">
-                <img  class="rotate" src="${path}/FlatfyTheme/img/icon/browser.svg" alt="Generic placeholder image">
-                <h3>Bootstrap</h3>
-                <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
+                <h3>题外话</h3>
+                <p class="lead">本人其实挺怀念在这4年多来在团里的每一个人，因为大家都为这个团队付出了努力才会有今天。
+                    我甚至还记得当时每个人的ID，每当在好友列表里看到那个灰色的名字的时候，小心脏还是会淡淡触抖一下。
+                    或许真的是每个人都有有些怀旧情结吧，重要的就是就算是一个又一个版本的结束，但每当一个新版本出现时，大家也还可以一起像以前一样游戏才是最快乐的。
+                    我们不只是为了某一个版本的Raid通关而招募，更重要的是认识更多的朋友一起愉快的玩耍！
+                    <s>就我矫情。</s>
+                    </p>
                 <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
             </div><!-- /.col-lg-4 -->
 

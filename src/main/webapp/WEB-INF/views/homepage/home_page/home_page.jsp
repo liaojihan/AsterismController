@@ -94,10 +94,10 @@
             <ul class="nav navbar-nav">
 
                 <li class="menuItem"><a href="#whatis">关于我们</a></li>
-                <li class="menuItem"><a href="#useit">Use It</a></li>
-                <li class="menuItem"><a href="#screen">Screenshot</a></li>
-                <li class="menuItem"><a href="#credits">Credits</a></li>
-                <li class="menuItem"><a href="#contact">Contact</a></li>
+                <li class="menuItem"><a href="#useit">新闻热点</a></li>
+                <li class="menuItem"><a href="#screen">公会热榜</a></li>
+                <li class="menuItem"><a href="#credits"></a></li>
+                <li class="menuItem"><a href="#contact">加入我们</a></li>
             </ul>
         </div>
 
@@ -118,7 +118,7 @@
 
             <div class="col-sm-4 wow fadeInDown text-center">
                 <h3>为了联盟</h3>
-                <p class="lead">我们是国服十区 -- 安苏服务器的一家联盟公会！</p>
+                <p class="lead"><br><br>我们是国服十区 -- 安苏服务器的一家联盟公会！</p>
 
                 <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
             </div><!-- /.col-lg-4 -->
@@ -134,7 +134,7 @@
 
             <div class="col-sm-4 wow fadeInDown text-center">
                 <h3>公会进度</h3>
-                <p class="lead">现在由一区诺莫瑞根转服至十区安苏重现组建公会。
+                <p class="lead"><br>现在由一区诺莫瑞根转服至十区安苏重现组建公会。
                     目前王座7M开荒金加洛斯，招募稳定并有一定装备基础，能合理安排生活与活动时间的成熟团员</p>
                 <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
             </div><!-- /.col-lg-4 -->
@@ -144,20 +144,30 @@
         <div class="row tworow">
 
             <div class="col-sm-4  wow fadeInDown text-center">
-                <h3>Responsive</h3>
-                <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
+                <h3>公会活动</h3>
+                <p class="lead"></p>
+                <p class="lead"><span style="font-weight: bold">活动时间:</span>每周活动时间为 周5，周6，周日晚上7:50-11:00</p>
+                <p class="lead"><span style="font-weight: bold">分配模式:</span>分配模式目前是队长分配，绝对不用担心黑装备问题，目前团队非常和谐，大家都在让来让去，没有出现争抢的情况。</p>
                 <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
             </div><!-- /.col-lg-4 -->
 
             <div class="col-sm-4 wow fadeInDown text-center">
-                <h3>Google</h3>
-                <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
+                <h3>联系方式</h3>
+                <p class="lead">微信:15177777340 -- 碧水</p>
+                <p class="lead">请标注NGA招募 </p>
+                <p class="lead">游戏联系方式: 碧水丶-安苏</p>
+                <p class="lead">战网: vv5616561@163.com</p>
                 <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
             </div><!-- /.col-lg-4 -->
 
             <div class="col-sm-4 wow fadeInDown text-center">
-                <h3>Bootstrap</h3>
-                <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
+                <h3>题外话</h3>
+                <p class="lead">本人其实挺怀念在这4年多来在团里的每一个人，因为大家都为这个团队付出了努力才会有今天。
+                    我甚至还记得当时每个人的ID，每当在好友列表里看到那个灰色的名字的时候，小心脏还是会淡淡触抖一下。
+                    或许真的是每个人都有有些怀旧情结吧，重要的就是就算是一个又一个版本的结束，但每当一个新版本出现时，大家也还可以一起像以前一样游戏才是最快乐的。
+                    我们不只是为了某一个版本的Raid通关而招募，更重要的是认识更多的朋友一起愉快的玩耍！
+                    <s>就我矫情。</s>
+                    </p>
                 <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
             </div><!-- /.col-lg-4 -->
 
@@ -235,32 +245,32 @@
     </div>
 </div>
 
-<div class="content-section-a">
+<%--<div class="content-section-a">--%>
 
-    <div class="container">
+    <%--<div class="container">--%>
 
-        <div class="row">
+        <%--<div class="row">--%>
 
-            <div class="col-sm-6 pull-right wow fadeInRightBig">
-                <img class="img-responsive " src="${path}/FlatfyTheme/img/doge.png" alt="">
-            </div>
+            <%--<div class="col-sm-6 pull-right wow fadeInRightBig">--%>
+                <%--<img class="img-responsive " src="${path}/FlatfyTheme/img/doge.png" alt="">--%>
+            <%--</div>--%>
 
-            <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">
-                <h3 class="section-heading">Font Awesome & Glyphicon</h3>
-                <p class="lead">A special thanks to Death to the Stock Photo for
-                    providing the photographs that you see in this template.
-                </p>
+            <%--<div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">--%>
+                <%--<h3 class="section-heading">Font Awesome & Glyphicon</h3>--%>
+                <%--<p class="lead">A special thanks to Death to the Stock Photo for--%>
+                    <%--providing the photographs that you see in this template.--%>
+                <%--</p>--%>
 
-                <ul class="descp lead2">
-                    <li><i class="glyphicon glyphicon-signal"></i> Reliable and Secure Platform</li>
-                    <li><i class="glyphicon glyphicon-refresh"></i> Everything is perfectly orgainized for future</li>
-                    <li><i class="glyphicon glyphicon-headphones"></i> Attach large file easily</li>
-                </ul>
-            </div>
-        </div>
-    </div>
+                <%--<ul class="descp lead2">--%>
+                    <%--<li><i class="glyphicon glyphicon-signal"></i> Reliable and Secure Platform</li>--%>
+                    <%--<li><i class="glyphicon glyphicon-refresh"></i> Everything is perfectly orgainized for future</li>--%>
+                    <%--<li><i class="glyphicon glyphicon-headphones"></i> Attach large file easily</li>--%>
+                <%--</ul>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+    <%--</div>--%>
 
-</div>
+<%--</div>--%>
 
 <!-- Screenshot -->
 <div id="screen" class="content-section-b">
