@@ -31,7 +31,7 @@ public class HomePageController {
 //            e.printStackTrace();
 //        }
 //        return mav;
-        return "homepage/home_page/home_page";
+        return "home/home_page";
     }
 
     @RequestMapping(value = "news_information" ,method = RequestMethod.GET)
