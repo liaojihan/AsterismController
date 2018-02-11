@@ -64,4 +64,7 @@
         DELETE FROM tb_boss WHERE id=#{id}
     </delete>
 
+    <select id="get_boss_information" parameterMap="bossMap">
+        SELECT * FROM tb_boss
+    </select>
 </mapper>

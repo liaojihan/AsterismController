@@ -37,4 +37,6 @@ public interface BossMapper {
     List<Boss> search_boss(@Param("start") int start, @Param("length") int length, @Param("boss_name") String boss_name);
 
     int boss_count(@Param("boss_name") String boss_name);
+
+    List<Boss> get_boss_information();
 }

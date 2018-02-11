@@ -554,13 +554,26 @@
 
     $(function () {
         profession_query();
+        news_query();
+
 
         $(document).ready( function() {
             $('.navbar-default').stickUp();
 
         });
     });
+    //news查询
+    function news_query(){
+        $.ajax({
+            url: '${path}/get_news_information',
+            type: 'get',
+            dataType: 'json',
+            success: function (data) {
 
+            }
+        });
+    }
+    //profession查询
     function profession_query() {
         $.ajax({
             url: "${path}/profession/query_profession",

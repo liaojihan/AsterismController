@@ -1,4 +1,5 @@
 package com.guild.controller;
+import com.guild.model.Boss;
 import com.guild.model.News;
 import com.guild.service.HomePageService;
 import org.json.JSONObject;
@@ -67,5 +68,18 @@ public class HomePageController {
         ModelAndView mav = new ModelAndView();
         mav.setViewName("about_us");
         return mav;
+    }
+
+    @RequestMapping(value = "get_boss_information", method = RequestMethod.GET)
+    @ResponseBody
+    public String get_boss_information(){
+        JSONObject jsonObject = new JSONObject();
+        try {
+            List<Boss> bossList = homePageService.get_boss_information();
+            jsonObject.put("bossList", bossList);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return jsonObject.toString();
     }
 }

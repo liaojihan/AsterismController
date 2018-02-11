@@ -6,20 +6,18 @@
     </artifacts-to-build>
   </component>
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/home_page.jsp" line="625" mnemonic="4" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/home_page.jsp" line="638" mnemonic="4" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29addb8a-e238-4081-bbf8-9913a2108a56" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/guild/controller/LoginController.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mvc/WEB-INF/views/homepage/home_page/home_page.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mvc/login.jsp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/guild/controller/HomePageController.class" afterPath="$PROJECT_DIR$/target/classes/com/guild/controller/HomePageController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mvc.war" afterPath="$PROJECT_DIR$/target/mvc.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mvc/WEB-INF/classes/com/guild/controller/HomePageController.class" afterPath="$PROJECT_DIR$/target/mvc/WEB-INF/classes/com/guild/controller/HomePageController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/guild/controller/HomePageController.java" afterPath="$PROJECT_DIR$/src/main/java/com/guild/controller/HomePageController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/homepage/home_page/home_page.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/home_page.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/back-stage_manage/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/guild/mapper/BossMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/guild/mapper/BossMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/guild/service/HomePageService.java" afterPath="$PROJECT_DIR$/src/main/java/com/guild/service/HomePageService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/guild/service/impl/HomePageServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/guild/service/impl/HomePageServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mybatis/BossMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/BossMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/home_page.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/home_page.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,144 +40,57 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1089">
-              <caret line="33" column="26" lean-forward="false" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home_page.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home_page.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/home_page.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="99" column="69" lean-forward="true" selection-start-line="99" selection-start-column="69" selection-end-line="99" selection-end-column="69" />
+            <state relative-caret-position="297">
+              <caret line="557" column="0" lean-forward="false" selection-start-line="557" selection-start-column="0" selection-end-line="557" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomePageController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/guild/controller/HomePageController.java">
+      <file leaf-file-name="HomePageServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/guild/service/impl/HomePageServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="512">
+              <caret line="82" column="28" lean-forward="false" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="28" />
+              <folding>
+                <element signature="e#2317#2318#0" expanded="true" />
+                <element signature="e#2373#2374#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/back-stage_manage/login.jsp">
+      <file leaf-file-name="BossMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/guild/mapper/BossMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="58" column="30" lean-forward="false" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
+            <state relative-caret-position="644">
+              <caret line="40" column="35" lean-forward="false" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/guild/controller/UserController.java">
+      <file leaf-file-name="NewsMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/guild/mapper/NewsMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="611">
+              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/guild/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
+            <state relative-caret-position="396">
               <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="39" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#380#381#0" expanded="true" />
                 <element signature="e#428#429#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Applicanter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/guild/model/Applicanter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="34" />
-              <folding>
-                <element signature="e#363#364#0" expanded="false" />
-                <element signature="e#388#389#0" expanded="false" />
-                <element signature="e#421#422#0" expanded="false" />
-                <element signature="e#449#450#0" expanded="false" />
-                <element signature="e#480#481#0" expanded="false" />
-                <element signature="e#507#508#0" expanded="false" />
-                <element signature="e#547#548#0" expanded="false" />
-                <element signature="e#579#580#0" expanded="false" />
-                <element signature="e#611#612#0" expanded="false" />
-                <element signature="e#639#640#0" expanded="false" />
-                <element signature="e#681#682#0" expanded="false" />
-                <element signature="e#715#716#0" expanded="false" />
-                <element signature="e#753#754#0" expanded="false" />
-                <element signature="e#787#788#0" expanded="false" />
-                <element signature="e#841#842#0" expanded="false" />
-                <element signature="e#887#888#0" expanded="false" />
-                <element signature="e#921#922#0" expanded="false" />
-                <element signature="e#954#955#0" expanded="false" />
-                <element signature="e#1003#1004#0" expanded="false" />
-                <element signature="e#1047#1048#0" expanded="false" />
-                <element signature="e#1089#1090#0" expanded="false" />
-                <element signature="e#1127#1128#0" expanded="false" />
-                <element signature="e#1189#1190#0" expanded="false" />
-                <element signature="e#1243#1244#0" expanded="false" />
-                <element signature="e#1277#1278#0" expanded="false" />
-                <element signature="e#1307#1308#0" expanded="false" />
-                <element signature="e#1353#1354#0" expanded="false" />
-                <element signature="e#1391#1392#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApplicanterController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/guild/controller/ApplicanterController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="101" column="33" lean-forward="false" selection-start-line="101" selection-start-column="16" selection-end-line="101" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApplicantServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/guild/service/impl/ApplicantServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="30" column="79" lean-forward="false" selection-start-line="30" selection-start-column="79" selection-end-line="30" selection-end-column="79" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#980#981#0" expanded="false" />
-                <element signature="e#1034#1035#0" expanded="false" />
-                <element signature="e#1080#1081#0" expanded="false" />
-                <element signature="e#1132#1133#0" expanded="false" />
-                <element signature="e#1863#1864#0" expanded="false" />
-                <element signature="e#1933#1934#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProfessionMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/guild/mapper/ProfessionMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -244,15 +155,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/guild/service/InstanceService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/guild/service/impl/InstanceServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/instance.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/guild/mapper/InstanceMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/guild/service/BossService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/guild/util/Handle_Sort.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/guild/service/impl/BossServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/guild/mapper/BossMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mybatis/BossMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/boss.jsp" />
         <option value="F:/liaojihan_git/dasb/flasky/apps/templates/rule/suspicious_ip.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/person.jsp" />
@@ -293,8 +198,14 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/back-stage_manage/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/homepage/home_page/home_page.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/homepage/home_page.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/guild/controller/HomePageController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guild/model/GirlFriend.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/home_page.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guild/controller/HomePageController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guild/service/HomePageService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guild/mapper/NewsMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guild/service/impl/HomePageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guild/mapper/BossMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/BossMapper.xml" />
       </list>
     </option>
   </component>
@@ -385,7 +296,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -575,6 +485,36 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ANSU-Asterism" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ANSU-Asterism" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mybatis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -599,6 +539,100 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="guild" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ANSU-Asterism" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ANSU-Asterism" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guild" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ANSU-Asterism" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ANSU-Asterism" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guild" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ANSU-Asterism" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ANSU-Asterism" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guild" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -636,6 +670,7 @@
       </pane>
       <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1330,7 +1365,8 @@
       <workItem from="1517905514086" duration="1845000" />
       <workItem from="1517968535006" duration="16738000" />
       <workItem from="1518053292420" duration="6153000" />
-      <workItem from="1518081229812" duration="3986000" />
+      <workItem from="1518081229812" duration="4671000" />
+      <workItem from="1518312868374" duration="4452000" />
     </task>
     <task id="LOCAL-00001" summary="修改页面">
       <created>1518073216230</created>
@@ -1339,11 +1375,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518073216230</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="修改页面">
+      <created>1518157573902</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1518157573902</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="632159000" />
+    <option name="totallyTimeSpent" value="637296000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1356,6 +1399,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1376,11 +1420,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1691974" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24403471" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1691974" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31127983" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18336888" sideWeight="0.4957265" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18550107" sideWeight="0.4957265" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1913646" sideWeight="0.50427353" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -1486,54 +1530,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/FlatfyTheme/img/iphone.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/FlatfyTheme/img/status.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/FlatfyTheme/img/prova1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/FlatfyTheme/img/phones.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.2.8.RELEASE/spring-context-4.2.8.RELEASE.jar!/org/springframework/context/config/spring-context-4.2.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-839">
-          <caret line="186" column="4" lean-forward="false" selection-start-line="186" selection-start-column="4" selection-end-line="186" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-base.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/npm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/back-stage_manage/public_page/public_import.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -1742,15 +1738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-223">
           <caret line="16" column="50" lean-forward="false" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
-          <folding>
-            <marker date="1517986958851" expanded="true" signature="714:874" ph="INSERT INTO tb_applicant... " />
-            <marker date="1517986958851" expanded="true" signature="955:996" ph="DELETE FROM " />
-            <marker date="1517986958851" expanded="true" signature="1067:1100" ph="SELECT COUNT... tb_applicant" />
-            <marker date="1517986958851" expanded="true" signature="1205:1256" ph="SELECT * FRO... tb_applicant" />
-            <marker date="1517986958851" expanded="true" signature="1377:1436" ph="SELECT name,... tb_applicant" />
-            <marker date="1517986958851" expanded="true" signature="1544:1637" ph="SELECT COUNT... tb_applicant" />
-            <marker date="1517986958851" expanded="true" signature="1725:1814" ph="SELECT * FRO... tb_applicant" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1855,20 +1842,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/guild/controller/ApplicanterController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
+        <state relative-caret-position="2937">
           <caret line="101" column="33" lean-forward="false" selection-start-line="101" selection-start-column="16" selection-end-line="101" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guild/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="39" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3775#3776#0" expanded="false" />
+            <element signature="e#3837#3838#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1883,33 +1862,127 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/guild/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="462">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/back-stage_manage/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
+        <state relative-caret-position="1914">
           <caret line="58" column="30" lean-forward="false" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guild/controller/HomePageController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guild/controller/NewsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+        <state relative-caret-position="-314">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guild/model/GirlFriend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/home_page.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="99" column="69" lean-forward="true" selection-start-line="99" selection-start-column="69" selection-end-line="99" selection-end-column="69" />
+        <state relative-caret-position="297">
+          <caret line="557" column="0" lean-forward="false" selection-start-line="557" selection-start-column="0" selection-end-line="557" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guild/service/HomePageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guild/controller/HomePageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="77" column="70" lean-forward="false" selection-start-line="77" selection-start-column="50" selection-end-line="77" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guild/model/Boss.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/BossMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="67" column="29" lean-forward="false" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
+          <folding>
+            <marker date="1518319269978" expanded="true" signature="629:675" ph="SELECT * FRO... tb_boss" />
+            <marker date="1518319269978" expanded="true" signature="757:846" ph="SELECT * FRO... tb_boss" />
+            <marker date="1518319269978" expanded="true" signature="911:939" ph="SELECT count... tb_boss" />
+            <marker date="1518319269978" expanded="true" signature="1026:1275" ph="SELECT * FRO... tb_boss" />
+            <marker date="1518319269978" expanded="true" signature="1349:1555" ph="SELECT * FRO... tb_boss" />
+            <marker date="1518319269978" expanded="true" signature="1625:1708" ph="SELECT count... tb_boss" />
+            <marker date="1518319269978" expanded="true" signature="1795:1920" ph="INSERT INTO tb_boss... " />
+            <marker date="1518319269978" expanded="true" signature="2017:2059" ph="SELECT is_pa... tb_boss" />
+            <marker date="1518319269978" expanded="true" signature="2115:2174" ph="UPDATE tb_bo... " />
+            <marker date="1518319269978" expanded="true" signature="2248:2282" ph="DELETE FROM " />
+            <marker date="1518319269978" expanded="true" signature="2368:2381" ph="SELECT name,... " />
+            <marker date="1518319269978" expanded="true" signature="2368:2384" ph="SELECT * FRO... tb" />
+            <marker date="1518319269978" expanded="true" signature="2368:2389" ph="SELECT * FRO... tb_boss" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guild/service/impl/HomePageServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="82" column="28" lean-forward="false" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="28" />
+          <folding>
+            <element signature="e#2317#2318#0" expanded="true" />
+            <element signature="e#2373#2374#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guild/mapper/BossMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="40" column="35" lean-forward="false" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guild/mapper/NewsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guild/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="39" />
+          <folding>
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

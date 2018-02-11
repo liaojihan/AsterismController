@@ -1,8 +1,10 @@
 package com.guild.service.impl;
 
+import com.guild.mapper.BossMapper;
 import com.guild.mapper.GuildMessageMapper;
 import com.guild.mapper.NewsMapper;
 import com.guild.mapper.PersonMapper;
+import com.guild.model.Boss;
 import com.guild.model.GuildMessage;
 import com.guild.model.News;
 import com.guild.model.Person;
@@ -25,6 +27,8 @@ public class HomePageServiceImpl implements HomePageService {
     private GuildMessageMapper guildMessageMapper;
     @Autowired
     private NewsMapper newsMapper;
+    @Autowired
+    private BossMapper bossMapper;
 
     @Override
     public List<Person> get_propsal_person() {
@@ -72,5 +76,10 @@ public class HomePageServiceImpl implements HomePageService {
     @Override
     public int news_count() {
         return newsMapper.get_count();
+    }
+
+    @Override
+    public List<Boss> get_boss_information() {
+        return bossMapper.get_boss_information();
     }
 }

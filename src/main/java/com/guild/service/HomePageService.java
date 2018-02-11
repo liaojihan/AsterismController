@@ -1,5 +1,6 @@
 package com.guild.service;
 
+import com.guild.model.Boss;
 import com.guild.model.News;
 import com.guild.model.Person;
 import com.guild.model.GuildMessage;
@@ -21,4 +22,6 @@ public interface HomePageService {
     List<News> news_information();
 
     int news_count();
+
+    List<Boss> get_boss_information();
 }
