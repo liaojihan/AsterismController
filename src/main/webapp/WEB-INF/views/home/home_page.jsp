@@ -61,7 +61,8 @@
 <div class="intro-header">
     <div class="col-xs-12 text-center abcen1">
         <h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">WOW</h1>
-        <h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">Ansu & Asterism</h3>
+        <h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">十区 - 影之哀伤</h3>
+        <h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">Asterism</h3>
         <ul class="list-inline intro-social-buttons">
             <%--<li><a href="#" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s" id="wechat"><span class="network-name">Wechat</span></a>--%>
             <%--</li>--%>
@@ -117,8 +118,9 @@
         <div class="row">
 
             <div class="col-sm-4 wow fadeInDown text-center">
-                <h3>为了联盟</h3>
-                <p class="lead"><br><br>我们是国服十区 -- 安苏服务器的一家联盟公会！</p>
+                <h3>为了部落</h3>
+                <h3>Lok Tar'Ogar !</h3>
+                <p class="lead"><br><br>我们是国服十区 -- 影之哀伤服务器的一家部落公会！</p>
 
                 <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
             </div><!-- /.col-lg-4 -->

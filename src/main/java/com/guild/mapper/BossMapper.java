@@ -27,12 +27,15 @@ public interface BossMapper {
 
     void update_status(@Param("id") int id, @Param("flag") boolean flag);
 
-    List<Boss> query_boss_by_order(@Param("start") int start, @Param("length") int length,
-                                   @Param("order_column_data") String order_column_data, @Param("order_dir") String order_dir);
+    List<Boss> query_boss_by_order(@Param("start") int start,
+                                   @Param("length") int length,
+                                   @Param("order_column_data") String order_column_data,
+                                   @Param("order_dir") String order_dir);
 
     List<Boss> search_boss_by_order(@Param("start") int start, @Param("length") int length,
                                     @Param("order_column_data") String order_column_data,
-                                    @Param("order_dir") String order_dir, @Param("boss_name") String boss_name);
+                                    @Param("order_dir") String order_dir,
+                                    @Param("boss_name") String boss_name);
 
     List<Boss> search_boss(@Param("start") int start, @Param("length") int length, @Param("boss_name") String boss_name);
 
