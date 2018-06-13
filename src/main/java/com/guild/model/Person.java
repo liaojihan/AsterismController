@@ -16,7 +16,7 @@ public class Person {
     private String feel = "";//感受
     private String nick_name = "";//外号、昵称
     private int pro_id;//职业id
-    private String pro_name;//职业名字
+    private String pro_name="";//职业名字
     private String will_order = "";//会阶
     private String location = "";//团队定位
     private Boolean is_display = false;//是否上榜

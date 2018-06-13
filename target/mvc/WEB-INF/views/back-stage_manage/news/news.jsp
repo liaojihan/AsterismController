@@ -112,7 +112,7 @@
                             <div style="width:100%; margin:0 auto;">
 
                                 标题：<input style="width:600px;height:30px;line-height:30px;font-size:18px;" name="title" id="add_title"><br><br>
-                                来源：<input style="width: 6px;00px;height:30px;line-height:30px;font-size:18px;" name="source" id="add_source"><br>
+                                来源：<input style="width: 6px;height:30px;line-height:30px;font-size:18px;" name="source" id="add_source"><br>
                                 <br>
                                 <input id="add_content_data" name="content" type="hidden">
                                 图片：<input type="file" name="header_pic" id="add_pic" accept="image/*" /><br><br>
@@ -214,7 +214,7 @@
 </div>
 <%@include file="../public_page/public_footer.jsp" %>
 <!--引入jquery和wangEditor.js-->   <!--注意：javascript必须放在body最后，否则可能会出现问题-->
-<script type="text/javascript" src="${path}/static/wangEditor-3.0.13/release/wangEditor.js"></script>
+<script type="text/javascript" src="${path}/static/wangEditor-3.0.13/release/wangEditor.min.js"></script>
 <!--这里引用jquery和wangEditor.js-->
 <script type="text/javascript">
     var E = window.wangEditor;

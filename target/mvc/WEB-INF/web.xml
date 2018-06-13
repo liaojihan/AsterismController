@@ -31,11 +31,6 @@
 	</servlet-mapping>
 
 	<servlet-mapping>
-		<servlet-name>dispatcher</servlet-name>
-		<url-pattern>/home_page</url-pattern>
-	</servlet-mapping>
-
-	<servlet-mapping>
 		<servlet-name>default</servlet-name>
 		<url-pattern>*.woff</url-pattern>
 	</servlet-mapping>

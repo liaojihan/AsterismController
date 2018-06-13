@@ -122,11 +122,7 @@ public class PersonServiceImpl implements PersonService {
     @Override
     public void update_status(int person_id) {
         Boolean person_status = personMapper.select_status(person_id);
-        if (person_status){
-            person_status = false;
-        }else {
-            person_status = true;
-        }
+        person_status = !person_status;
         personMapper.update_status(person_id, person_status);
     }
 

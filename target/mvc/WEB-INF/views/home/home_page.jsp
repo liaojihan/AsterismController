@@ -27,27 +27,24 @@
     <title>Flatfy – Free Flat and Responsive HTML5 Template</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="${path}/FlatfyTheme/css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="<c:url value="/static/bootstrap/css/bootstrap.min.css"/>" rel="stylesheet">
     <!-- Custom Google Web Font -->
-    <link href="${path}/FlatfyTheme/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href='${path}/FlatfyTheme/css/family-lato.css' rel='stylesheet' type='text/css'>
-    <link href='${path}/FlatfyTheme/css/family-arvo.css' rel='stylesheet' type='text/css'>
+    <link href="<c:url value="/static/font-awesome/css/font-awesome.min.css"/>" rel="stylesheet">
+    <link href='<c:url value="/static/FlatfyTheme/css/family-lato.css"/>' type='text/css' rel="stylesheet">
+    <link href='<c:url value="/static/FlatfyTheme/css/family-arvo.css"/>' rel='stylesheet' type='text/css'>
 
     <!-- Custom CSS-->
-    <link href="${path}/FlatfyTheme/css/general.css" rel="stylesheet">
-
+    <link href="<c:url value="/static/FlatfyTheme/css/general.css"/>" rel="stylesheet">
     <!-- Owl-Carousel -->
-    <link href="${path}/FlatfyTheme/css/custom.css" rel="stylesheet">
-    <link href="${path}/FlatfyTheme/css/owl.carousel.css" rel="stylesheet">
-    <link href="${path}/FlatfyTheme/css/owl.theme.css" rel="stylesheet">
-    <link href="${path}/FlatfyTheme/css/style.css" rel="stylesheet">
-    <link href="${path}/FlatfyTheme/css/animate.css" rel="stylesheet">
-
+    <link href="<c:url value="/static/FlatfyTheme/css/custom.css"/>" rel="stylesheet">
+    <link href="<c:url value="/static/FlatfyTheme/css/owl.carousel.css"/>" rel="stylesheet">
+    <link href="<c:url value="/static/FlatfyTheme/css/owl.theme.css"/>" rel="stylesheet">
+    <link href="<c:url value="/static/FlatfyTheme/css/style.css"/>" rel="stylesheet">
+    <link href="<c:url value="/static/FlatfyTheme/css/animate.css"/>" rel="stylesheet">
     <!-- Magnific Popup core CSS file -->
-    <link rel="stylesheet" href="${path}/FlatfyTheme/css/magnific-popup.css">
+    <link rel="stylesheet" href="<c:url value="/static/FlatfyTheme/css/magnific-popup.css"/>">
 
-    <script src="${path}/FlatfyTheme/js/modernizr-2.6.2.min.js"></script>  <!-- Modernizr /-->
+    <script src="<c:url value="/static/FlatfyTheme/js/modernizr-2.6.2.min.js"/>"></script>  <!-- Modernizr /-->
 </head>
 
 <body id="home">
@@ -73,7 +70,7 @@
     <!-- /.container -->
     <div class="col-xs-12 text-center abcen wow fadeIn">
         <div class="button_down ">
-            <a class="imgcircle wow bounceInUp" data-wow-duration="1.5s"  href="#whatis"> <img class="img_scroll" src="${path}/FlatfyTheme/img/icon/circle.png" alt=""> </a>
+            <a class="imgcircle wow bounceInUp" data-wow-duration="1.5s"  href="#whatis"> <img class="img_scroll" src="<c:url value="/static/FlatfyTheme/img/icon/circle.png"/>" alt=""> </a>
         </div>
     </div>
 </div>
@@ -185,7 +182,7 @@
         <div class="row">
 
             <div class="col-sm-6 pull-right wow fadeInRightBig">
-                <img class="img-responsive " src="${path}/FlatfyTheme/img/ipad.png" alt="">
+                <img class="img-responsive " src="<c:url value="/static/FlatfyTheme/img/ipad.png"/>" alt="">
             </div>
 
             <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">
@@ -212,19 +209,19 @@
         <div class="row">
             <div class="col-sm-6 wow fadeInLeftBig">
                 <div id="owl-demo-1" class="owl-carousel">
-                    <a href="${path}/FlatfyTheme/img/iphone.png" class="image-link">
+                    <a href="<c:url value="/static/FlatfyTheme/img/iphone.png"/>" class="image-link">
                         <div class="item">
-                            <img class="img-responsive img-rounded" src="${path}/FlatfyTheme/img/iphone.png" alt="">
+                            <img class="img-responsive img-rounded" src="<c:url value="/static/FlatfyTheme/img/iphone.png"/>" alt="">
                         </div>
                     </a>
-                    <a href="${path}/FlatfyTheme/img/iphone.png" class="image-link">
+                    <a href="<c:url value="/static/FlatfyTheme/img/iphone.png"/>" class="image-link">
                         <div class="item">
-                            <img class="img-responsive img-rounded" src="${path}/FlatfyTheme/img/iphone.png" alt="">
+                            <img class="img-responsive img-rounded" src="<c:url value="/static/FlatfyTheme/img/iphone.png"/>" alt="">
                         </div>
                     </a>
-                    <a href="${path}/FlatfyTheme/img/iphone.png" class="image-link">
+                    <a href="<c:url value="/static/FlatfyTheme/img/iphone.png"/>" class="image-link">
                         <div class="item">
-                            <img class="img-responsive img-rounded" src="${path}/FlatfyTheme/img/iphone.png" alt="">
+                            <img class="img-responsive img-rounded" src="<c:url value="/static/FlatfyTheme/img/iphone.png"/>" alt="">
                         </div>
                     </a>
                 </div>
@@ -286,39 +283,39 @@
         <div class="row wow bounceInUp" >
             <div id="owl-demo" class="owl-carousel">
 
-                <a href="${path}/FlatfyTheme/img/slide/1.png" class="image-link">
+                <a href="<c:url value="/static/FlatfyTheme/img/slide/1.png"/>" class="image-link">
                     <div class="item">
-                        <img class="img-responsive img-rounded" src="${path}/FlatfyTheme/img/slide/1.png" alt="Owl Image">
+                        <img class="img-responsive img-rounded" src="<c:url value="/static/FlatfyTheme/img/slide/1.png"/>" alt="Owl Image">
                     </div>
                 </a>
 
-                <a href="${path}/FlatfyTheme/img/slide/2.png" class="image-link">
+                <a href="<c:url value="/static/FlatfyTheme/img/slide/2.png"/>" class="image-link">
                     <div class="item">
-                        <img class="img-responsive img-rounded" src="${path}/FlatfyTheme/img/slide/2.png" alt="Owl Image">
+                        <img class="img-responsive img-rounded" src="<c:url value="/static/FlatfyTheme/img/slide/2.png"/>" alt="Owl Image">
                     </div>
                 </a>
 
-                <a href="${path}/FlatfyTheme/img/slide/3.png" class="image-link">
+                <a href="<c:url value="/static/FlatfyTheme/img/slide/3.png"/>" class="image-link">
                     <div class="item">
-                        <img class="img-responsive img-rounded" src="${path}/FlatfyTheme/img/slide/3.png" alt="Owl Image">
+                        <img class="img-responsive img-rounded" src="<c:url value="/static/FlatfyTheme/img/slide/3.png"/>" alt="Owl Image">
                     </div>
                 </a>
 
-                <a href="${path}/FlatfyTheme/img/slide/1.png" class="image-link">
+                <a href="<c:url value="/static/FlatfyTheme/img/slide/1.png"/>" class="image-link">
                     <div class="item">
-                        <img class="img-responsive img-rounded" src="${path}/FlatfyTheme/img/slide/1.png" alt="Owl Image">
+                        <img class="img-responsive img-rounded" src="<c:url value="/static/FlatfyTheme/img/slide/1.png"/>" alt="Owl Image">
                     </div>
                 </a>
 
-                <a href="${path}/FlatfyTheme/img/slide/2.png" class="image-link">
+                <a href="<c:url value="/static/FlatfyTheme/img/slide/2.png"/>" class="image-link">
                     <div class="item">
-                        <img class="img-responsive img-rounded" src="${path}/FlatfyTheme/img/slide/2.png" alt="Owl Image">
+                        <img class="img-responsive img-rounded" src="<c:url value="/static/FlatfyTheme/img/slide/2.png"/>" alt="Owl Image">
                     </div>
                 </a>
 
-                <a href="${path}/FlatfyTheme/img/slide/3.png" class="image-link">
+                <a href="<c:url value="/static/FlatfyTheme/img/slide/3.png"/>" class="image-link">
                     <div class="item">
-                        <img class="img-responsive img-rounded" src="${path}/FlatfyTheme/img/slide/3.png" alt="Owl Image">
+                        <img class="img-responsive img-rounded" src="<c:url value="/static/FlatfyTheme/img/slide/1.png"/>" alt="Owl Image">
                     </div>
                 </a>
             </div>
@@ -545,13 +542,13 @@
 </footer>
 
 <!-- JavaScript -->
-<script src="${path}/FlatfyTheme/js/jquery-1.10.2.js"></script>
-<script src="${path}/FlatfyTheme/js/bootstrap.js"></script>
-<script src="${path}/FlatfyTheme/js/owl.carousel.js"></script>
-<script src="${path}/FlatfyTheme/js/script.js"></script>
-<script src="${path}/js/layer-v3.1.0/layer/layer.js"></script>
+<script src="<c:url value="/static/js/jQuery/jQuery-2.1.4.min.js"/>"></script>
+<script src="<c:url value="/static/FlatfyTheme/js/bootstrap.min.js"/>"></script>
+<script src="<c:url value="/static/FlatfyTheme/js/owl.carousel.js"/>"></script>
+<script src="<c:url value="/static/FlatfyTheme/js/script.js"/>"></script>
+<script src="<c:url value="/static/js/layer-v3.1.0/layer/layer.js"/>"></script>
 <!-- StikyMenu -->
-<script src="${path}/FlatfyTheme/js/stickUp.min.js"></script>
+<script src="<c:url value="/static/FlatfyTheme/js/stickUp.min.js"/>"></script>
 <script type="text/javascript">
 
     $(function () {
@@ -567,7 +564,7 @@
     //news查询
     function news_query(){
         $.ajax({
-            url: '${path}/get_news_information',
+            url: '<c:url value="/get_news_information"/>',
             type: 'get',
             dataType: 'json',
             success: function (data) {
@@ -660,15 +657,15 @@
    });
 </script>
 <!-- Smoothscroll -->
-<script type="text/javascript" src="${path}/FlatfyTheme/js/jquery.corner.js"></script>
-<script src="${path}/FlatfyTheme/js/wow.min.js"></script>
+<script type="text/javascript" src="<c:url value="/static/FlatfyTheme/js/jquery.corner.js"/>"></script>
+<script src="<c:url value="/static/FlatfyTheme/js/wow.min.js"/>"></script>
 <script>
     new WOW().init();
 </script>
-<script src="${path}/FlatfyTheme/js/classie.js"></script>
-<script src="${path}/FlatfyTheme/js/uiMorphingButton_inflow.js"></script>
+<script src="<c:url value="/static/FlatfyTheme/js/classie.js"/>"></script>
+<script src="<c:url value="/static/FlatfyTheme/js/uiMorphingButton_inflow.js"/>"></script>
 <!-- Magnific Popup core JS file -->
-<script src="${path}/FlatfyTheme/js/jquery.magnific-popup.js"></script>
+<script src="<c:url value="/static/FlatfyTheme/js/jquery.magnific-popup.js"/>"></script>
 </body>
 
 </html>

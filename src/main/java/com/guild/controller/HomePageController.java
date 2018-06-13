@@ -19,7 +19,7 @@ public class HomePageController {
     @Autowired
     HomePageService homePageService;
 
-    @RequestMapping(value = "home_page", method = RequestMethod.GET)
+    @RequestMapping(value = "", method = RequestMethod.GET)
     public String home_page(){
 //        ModelAndView mav = new ModelAndView();
 //        try {

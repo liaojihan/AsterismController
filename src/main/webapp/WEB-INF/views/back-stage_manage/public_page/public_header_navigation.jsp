@@ -33,7 +33,7 @@
                     <li><a href="">占xxxx位</a></li>
                     <li><a tabindex="-1" href="">占xxxx位</a></li>
                     <li class="divider"></li>
-                    <li><a tabindex="-1" href="../../../../login.jsp">退出登录</a></li>
+                    <li><a tabindex="-1" href="<c:url value="/login"/>">退出登录</a></li>
                 </ul>
             </li>
         </ul>
@@ -46,12 +46,12 @@
         <li><a href="#" data-target=".dashboard-menu" class="nav-header" data-toggle="collapse"><i class="fa fa-home"></i> 公会管理<i class="fa fa-collapse"></i></a></li>
         <li>
             <ul class="dashboard-menu nav nav-list collapse in">
-                <li ><a href="${path}/person/person"><span class="fa fa-paw"></span>&nbsp;&nbsp;人员管理</a></li>
-                <li ><a href="${path}/guild/query_guild"><span class="fa fa-envelope"></span>&nbsp;&nbsp;公会信息</a></li>
-                <li ><a href="${path}/applicant/applicant"><span class="fa fa-plus"></span>&nbsp;&nbsp;申请管理</a></li>
-                <li ><a href="${path}/news/news"><span class="fa fa-hacker-news"></span>&nbsp;&nbsp;新闻管理</a></li>
-                <li ><a href="${path}/instance/instance"><span class="fa fa-slack"></span>&nbsp;&nbsp;副本管理</a></li>
-                <li ><a href="${path}/boss/boss"><span class="fa fa-spinner"></span>&nbsp;&nbsp;进度管理</a></li>
+                <li ><a href="<c:url value="/person/person"/>"><span class="fa fa-paw"></span>&nbsp;&nbsp;人员管理</a></li>
+                <li ><a href="<c:url value="/com/guild/query_guild"/>"><span class="fa fa-envelope"></span>&nbsp;&nbsp;公会信息</a></li>
+                <li ><a href="<c:url value="/applicant/applicant"/>"><span class="fa fa-plus"></span>&nbsp;&nbsp;申请管理</a></li>
+                <li ><a href="<c:url value="/news/news"/>"><span class="fa fa-hacker-news"></span>&nbsp;&nbsp;新闻管理</a></li>
+                <li ><a href="<c:url value="/instance/instance"/>"><span class="fa fa-slack"></span>&nbsp;&nbsp;副本管理</a></li>
+                <li ><a href="<c:url value="/boss/boss"/>"><span class="fa fa-spinner"></span>&nbsp;&nbsp;进度管理</a></li>
             </ul>
         </li>
     </ul>

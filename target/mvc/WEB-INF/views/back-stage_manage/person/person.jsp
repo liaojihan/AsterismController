@@ -29,7 +29,7 @@
             "lengthMenu": [5, 10 ,20 ,30],
             language: dtLanguage,
             "ajax": {
-                url: "query_person",
+                url: "<c:url value="/person/query_person"/>",
                 type: 'POST'
             },
             columnDefs: [
@@ -87,7 +87,7 @@
     
     function profession_query() {
         $.ajax({
-            url: "../profession/query_profession",
+            url: "<c:url value="/profession/query_profession"/>",
             type: "post",
             success:function (data) {
                 $("#profession_all_id").append(data);
@@ -141,7 +141,7 @@
         }
         var dataForm = new FormData($("#add_form")[0]);
         $.ajax({
-            url: "add_person",
+            url: "<c:url value="/person/add_person"/>",
             data: dataForm,
             cache: false,
             processData: false,
@@ -174,7 +174,7 @@
         var person_id = id;
         layer.confirm("确认删除？",{icon: 2},function () {
             $.ajax({
-                url: "delete_person?person_id="+person_id,
+                url: "<c:url value="/person/delete_person?person_id="/>" + person_id,
                 dataType: "json",
                 Type: "get",
                 success:function (data) {
@@ -191,7 +191,7 @@
     function edit_person(id) {
         $('#editModal').modal({backdrop: 'static', keyboard: true});
         $.ajax({
-            url: "get_person?person_id="+id,
+            url: "<c:url value="/person/get_person?person_id="/>" + id,
             dataType: "json",
             type: "post",
             success:function (data) {
@@ -252,7 +252,7 @@
         }
         var dataForm = new FormData($("#edit_form")[0]);
         $.ajax({
-            url: "update_person",
+            url: "<c:url value="/person/update_person"/>",
             data: dataForm,
             cache: false,
             processData: false,
@@ -285,7 +285,7 @@
     //更改是否上榜
     function update_status(id) {
         $.ajax({
-            url: "update_status?person_id="+id,
+            url: "<c:url value="/person/update_status?person_id="/>" + id,
             dataType: "json",
             type: "get",
             success:function (data) {
