@@ -113,6 +113,7 @@ public class PersonServiceImpl implements PersonService {
         return personMapper.count();
     }
 
+
     @Override
     //查询单个成员名
     public String get_name(int person_id) {

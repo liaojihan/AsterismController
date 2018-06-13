@@ -31,7 +31,7 @@
             "lengthMenu": [5, 10 ,20 ,30],
             language: newsLanguage,
             "ajax":{
-                url:"query_news",
+                url:"<c:url value="/news/query_news"/>",
                 type: "get"
             },
             columnDefs:[
@@ -57,7 +57,7 @@
     function delete_news(id) {
         layer.confirm("确认删除？",{icon: 2},function () {
             $.ajax({
-                url:"delete_news?news_id=" + id,
+                url:"<c:url value="/news/delete_news?news_id="/>" + id,
                 dataType:"json",
                 type:"post",
                 success:function (data) {
@@ -76,7 +76,7 @@
 
     function edit_news(id) {
         $.ajax({
-            url: "get_news?news_id="+ id,
+            url: "<c:url value="/news/get_news?news_id="/>" + id,
             dataType:"json",
             type: "get",
             success:function (data) {
@@ -214,7 +214,7 @@
 </div>
 <%@include file="../public_page/public_footer.jsp" %>
 <!--引入jquery和wangEditor.js-->   <!--注意：javascript必须放在body最后，否则可能会出现问题-->
-<script type="text/javascript" src="${path}/static/wangEditor-3.0.13/release/wangEditor.min.js"></script>
+<script type="text/javascript" src="<c:url value="/static/wangEditor-3.0.13/release/wangEditor.min.js"/>"></script>
 <!--这里引用jquery和wangEditor.js-->
 <script type="text/javascript">
     var E = window.wangEditor;
@@ -274,7 +274,7 @@
         $("#add_content_data").val(news_data);
         var dataForm = new FormData($("#add_form")[0]);
         $.ajax({
-            url:"add_news",
+            url:"<c:url value="/news/add_news"/>",
             data:dataForm,
             cache: false,
             processData: false,
@@ -355,7 +355,7 @@
         var dataForm = new FormData($("#edit_form")[0]);
         layer.confirm("确认修改？",{icon: 2},function () {
             $.ajax({
-                url:"update_news",
+                url:"<c:url value="/news/update_news"/>",
                 data:dataForm,
                 cache: false,
                 processData: false,

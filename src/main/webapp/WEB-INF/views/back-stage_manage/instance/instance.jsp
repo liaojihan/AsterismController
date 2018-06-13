@@ -27,7 +27,7 @@
             "lengthMenu": [5,10,15,20],
             language: instanceLanguage,
             "ajax":{
-                url: "/instance/query_instance",
+                url: "<c:url value="/instance/query_instance"/>",
                 type:"get"
             },
             columnDefs:[
@@ -57,7 +57,7 @@
             return;
         }
         $.ajax({
-            url: "/instance/add_instance",
+            url: "<c:url value="/instance/add_instance"/>",
             data: $("#add_form_instance").serialize(),
             dataType: "json",
             type:"post",
@@ -80,7 +80,7 @@
     function remove_instance(id) {
         layer.confirm("确认删除？",{icon: 2},function () {
             $.ajax({
-                url:"/instance/delete_instance?id="+id,
+                url:"<c:url  value="/instance/delete_instance?id="/>" + id,
                 dataType:"json",
                 type:"post",
                 success:function (data) {
@@ -98,7 +98,7 @@
     //get
     function update_instance(id) {
         $.ajax({
-            url:"/instance/get_instance?id="+id,
+            url: "<c:url  value="/instance/get_instance?id="/>" + id,
             dataType:"json",
             type:"get",
             success:function (data) {
@@ -117,7 +117,7 @@
             return;
         }
         $.ajax({
-            url: "/instance/update_instance",
+            url: "<c:url value="/instance/update_instance"/>",
             data: $("#edit_form_instance").serialize(),
             dataType: "json",
             type:"post",
